@@ -1,0 +1,26 @@
+= Redis Spark Connector
+:linkattrs:
+:project-dist:       redis-spark-dist
+:project-group:      com.redis
+:project-name:       redis-spark
+:project-owner:      redis-field-engineering
+:project-title:      Redis Spark Connector
+:project-version:    0.1.0
+
+The Redis Connector for Spark provides integration between Redis and Apache Spark and supports reading data from and writing data to Redis.
+Within a Spark 3 environment the connector enables users to read data from Redis, manipulate it using Spark operations, and then write results back to Redis or to another system.
+Data can also be imported to Redis by reading it from any data source supported by Spark and then writing it to Redis.
+
+== Documentation
+
+The {project-title} documentation is available at https://{project-owner}.github.io/{project-name}[{project-owner}.github.io/{project-name}].
+
+== Support
+
+{project-title} is supported by Redis, Inc. for enterprise-tier customers as a 'Developer Tool' under the https://redis.io/legal/software-support-policy/[Redis Software Support Policy].
+For non enterprise-tier customers we provide support for {project-title} on a good-faith basis.
+To report bugs, request features, or receive assistance, please https://github.com/{project-owner}/{project-dist}/issues[file an issue].
+
+== License
+
+{project-title} is licensed under the Business Source License 1.1. Copyright (C) 2024 Redis, Inc. See link:LICENSE.adoc[LICENSE] for details.
