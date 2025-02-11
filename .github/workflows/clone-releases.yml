@@ -1,0 +1,15 @@
+name: Clone Releases
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run action
+        uses: andrewthetechie/gha-clone-releases@v1
+        with:
+          token: ${{ secrets.GIT_ACCESS_TOKEN }}
+          src_repo: redis-field-engineering/redis-spark
+          dest_repo: redis-field-engineering/redis-spark-dist
